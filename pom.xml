@@ -56,7 +56,7 @@
                         -javaagent:"${settings.localRepository}/org/aspectj/aspectjweaver/${aspectj.version}/aspectjweaver-${aspectj.version}.jar"
                     </argLine>
                     <test>
-                        testsuites0702.${suite}
+                        GmailTest1302.${suite}
                     </test>
                     <systemPropertyVariables>
                         <webdriver.chrome.driver>/Applications/chromedriver</webdriver.chrome.driver>
