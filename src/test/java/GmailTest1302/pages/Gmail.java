@@ -38,7 +38,7 @@ public class Gmail extends TestData {
     }
 
     public static void refreshGmail() {
-        $(".asf.T-I-J3.J-J5-Ji").click();
+        $(".asf").click();
     }
 
     public static void assertEmailAvailability(int emailIndex) {
