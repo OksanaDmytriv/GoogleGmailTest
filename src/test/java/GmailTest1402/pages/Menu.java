@@ -17,7 +17,7 @@ public class Menu {
     }
 
     public static void openInbox() {
-        $(byTitle("inbox")).click();
+        $(byTitle("Inbox")).click();
     }
 
     public static void search(String subject) {
