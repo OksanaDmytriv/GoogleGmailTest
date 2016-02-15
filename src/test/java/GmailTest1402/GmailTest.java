@@ -19,14 +19,14 @@ public class GmailTest {
 
         String subject = getUniqueText("test");
 
-        Gmail.openApp();
+        Gmail.open();
         Gmail.login(TestData.email, TestData.password);
 
         Mails.send(TestData.email, subject);
         Menu.refresh();
         Mails.assertMail(0, subject);
 
-        Menu.openSentMail();
+        Menu.openSent();
         Mails.assertMail(0, subject);
 
         Menu.openInbox();

@@ -12,7 +12,7 @@ public class Menu {
         $(".asf").click();
     }
 
-    public static void openSentMail() {
+    public static void openSent() {
         $(byTitle("Sent Mail")).click();
     }
 
